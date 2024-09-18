@@ -1,0 +1,55 @@
+@import 'settings' ;
+.container{
+    background-color: $bgcolor;
+    color: $color;
+    
+}
+*{
+    direction: $direction;
+}
+.container #menu div a{
+    text-decoration: $txtdec;
+    color: $color;
+
+
+}
+.container #menu{
+    position: fixed;
+    width: 100%;
+    background-color: $menubgcolor;
+    left: 0px;
+    height: 40px;
+    z-index: 1;
+    box-shadow: 0px 1px 10px rgb(36, 36, 36);
+}
+.container #menu div{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 40px;
+
+
+}
+.container #menu #pfp{
+    width: 30px;
+    position: fixed;
+    left: 40px;
+    top: 5px;
+    cursor: pointer;
+
+}
+.container #menu #menuwhite{
+    position: fixed;
+    width: 55px;
+    left: -6px;
+    top: -7px;
+}
+.container #menu div:hover{
+    background-color: $menubgcolorhover;
+}
+#main{
+    position: relative;
+    top: 50px;
+    
+}
