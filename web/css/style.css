@@ -12111,4 +12111,35 @@ textarea.form-control-lg {
 
 .footer {
   background-color: #03203e;
+}
+
+.modified {
+  background-color: #f39700 !important;
+  border: #f39700 !important;
+  border-radius: 0% !important;
+}
+
+.noradius {
+  border-radius: 0% !important;
+}
+
+.backgcolor {
+  background-color: #e8e8e8;
+  font-size: smaller;
+}
+
+.modthis {
+  box-sizing: border-box;
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  font-size: smaller;
+}
+
+.widthat {
+  width: 100%;
+}
+
+.para {
+  color: #555;
 }/*# sourceMappingURL=style.css.map */
