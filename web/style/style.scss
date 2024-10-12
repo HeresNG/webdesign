@@ -46,7 +46,7 @@
     border-radius: 0%!important;
 }
 .backgcolor{
-    background-color: #e8e8e8;
+    background-color: #e8e8e8!important;
     font-size: smaller;
 }
 .modthis{
@@ -60,6 +60,30 @@
     width: 100%;
 }
 .para{
-    color: #555;
+    color: #555!important;
     
+}
+.bread{
+    text-decoration: none;
+    color: #555;
+}
+.bread:hover{
+    color: #f39700;
+}
+.backgcolor2{
+    background-color: #f2f3f5;
+}
+.picborder{
+    border: 4px solid grey;
+}
+.navigator{
+    background-color: #cdd2d8!important;
+}
+.navtext{
+    color: #0d329a!important;
+    font-weight: 500!important;
+    text-decoration: none;
+}
+.navtext:hover{
+    color: #f39700!important;
 }

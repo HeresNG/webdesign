@@ -5,19 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-  <div >
+  <div class="container-fluid">
     <img src="images/header.jpg" alt="" class="w-100">
   </div>
- 
-    <div class="container-fluid">
-     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="aida">
+
+  <div class="container-fluid navigator">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navigator" >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">معرفی سازمان</a>
+        <a class="navbar-brand navtext" href="#">معرفی سازمان</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,180 +30,220 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">خدمات</a>
+              <a class="nav-link active navtext" aria-current="page" href="#">خدمات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">اطلاعات</a>
+              <a class="nav-link navtext" href="#">اطلاعات</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">آمار</a>
+              <a class="nav-link navtext" href="#">آمار</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">دستور المعل ها</a>
+              <a class="nav-link navtext" href="#">دستور المعل ها</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">فرایند ها</a>
+              <a class="nav-link navtext" href="#">فرایند ها</a>
             <li class="nav-item">
-              <a class="nav-link" href="#">شفافیت</a>
+              <a class="nav-link navtext" href="#">شفافیت</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">اطلاع رسانی</a>
+              <a class="nav-link navtext" href="#">اطلاع رسانی</a>
             </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">گالری</a>
+              <a class="nav-link navtext" href="#">گالری</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">انتشارات</a>
+              <a class="nav-link navtext" href="#">انتشارات</a>
             <li class="nav-item">
-              <a class="nav-link" href="#">پنجره خدمات هوشمند</a>
+              <a class="nav-link navtext" href="#">پنجره خدمات هوشمند</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">روابط عمومی </a>
+              <a class="nav-link navtext" href="#">روابط عمومی </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">روابط عمومی</a>
+              <a class="nav-link navtext" href="#">روابط عمومی</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">پایگاه</a>
+              <a class="nav-link navtext" href="#">پایگاه</a>
             </li>
             <li class="nav-item"></li>
-            <a class="nav-link" href="#">مخاطبان</a>
+            <a class="nav-link navtext" href="#">مخاطبان</a>
             </li>
             </li>
           </ul>
         </div>
       </div>
-    </nav> 
+    </nav>
+  </div>
+    <div class="container-fluid">
+      <div class="container pt-3">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <i class="bi bi-globe-asia-australia p-1"></i>
+            <li class="breadcrumb-item"><a href="#" class="bread"> سازمان راهداری و حمل و نقل جاده ای</a></li>
+            <li class="breadcrumb-item active" aria-current="page">اخبار</li>
+          </ol>
+        </nav>
+      </div>
     </div>
+
     <div class="container">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <i class="bi bi-globe-asia-australia"></i>
-          <li class="breadcrumb-item"><a href="#">مجله</a></li>
-          <li class="breadcrumb-item"><a href="#">وبسایت</a></li>
-          <li class="breadcrumb-item active" aria-current="page">خبر</li>
-        </ol>
-      </nav>
-    </div>
-      
-      <div>
-        <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group mb-2 mt-2">
+            <li class="list-group-item active modified" aria-current="true">فهرست طبقات</li>
+            <li class="list-group-item backgcolor para">اخبار رویداد</li>
+            <li class="list-group-item backgcolor para">سازمان راهداری و حمل و نقل جاده ای</li>
+            <li class="list-group-item backgcolor para">اطلایه های مهم</li>
+            <li class="list-group-item noradius backgcolor para">استان ها</li>
+          </ul>
+          <ul class="list-group mb-2">
+            <li class="list-group-item active modified" aria-current="true">آخرین اخبار سازمان راهداری و حمل و نقل جاده
+              ای
+            </li>
+            <li class="list-group-item backgcolor para">عملیات بهسازی و روکش آسفالت بیش از ۱۱ هزار کیلومتر از راه‌های
+              ...
+            </li>
+            <li class="list-group-item backgcolor para">حذف و اصلاح ۳۵۶ نقطه پر حادثه در راه‌های کشور</li>
+            <li class="list-group-item backgcolor para">رسیدگی قانونی به پرداخت به موقع کرایه حمل رانندگان</li>
+            <li class="list-group-item backgcolor para">سرمایه‌گذاری ۵۰۰۰ همتی بخش خصوصی حمل‌ونقل عمومی جاده‌ای کشور
+            </li>
+            <li class="list-group-item backgcolor para">جابجایی افزون بر یک میلیون و ۴۰۰ هزار تن کالا از پایانه های مرزی
+              شمال
+              ...
+            </li>
+            <li class="list-group-item backgcolor para">محدودیت‌های ترافیکی در محورهای مواصلاتی کشور در بازه زمانی ۱۱ تا
+              ۱۴ ...
+            </li>
+            <li class="list-group-item noradius backgcolor para">ساخت سکوی شبیه‌ساز رانندگی حرفه‌ای در ایران، یک دستاورد
+              دانش
+              بنیان ...</li>
+          </ul>
+          <ul class="list-group m-2">
+            <li class="list-group-item active modified" aria-current="true">پربازدیدترین اخبار سازمان راهداری و حمل و
+              نقل
+              جاده ای</li>
+            <li class="list-group-item backgcolor para">تشریح برنامه‌ها و تمهیدات لازم به منظور جابه‌جایی زائران مراسم
+              دومین
+              ...
+              (۱۰۸۷۶ بازدید)</li>
+            <li class="list-group-item backgcolor para">آزمون متقاضیان تاسیس شرکت های حمل و نقل بین المللی کالا 29
+              مهرماه
+              ...
+              (۶۴۳۱
+              بازدید)</li>
+            <li class="list-group-item backgcolor para">معاون وزیر و رئیس سازمان راهداری و حمل و نقل جاده‌ای منصوب شد
+              (۳۵۶۰
+              بازدید)
+            </li>
+            <li class="list-group-item backgcolor para">راهداری باید جزء مشاغل حاکمیتی محسوب شود نه تصدی‌گری/ لزوم
+              همراهی
+              و ...
+              (۲۶۰۷ بازدید)</li>
+            <li class="list-group-item backgcolor para">توقف صدور بارنامه برای کامیون‌ها به مقصد استان‌های
+              برف‌گیر‌/اتوبوس‌ها
+              ...
+              (۲۵۳۹ بازدید)</li>
+            <li class="list-group-item backgcolor para">صدور احکام نیروهای مشمول قانون مدیریت خدمات کشوری شاغل در ستاد
+              مرکزی
+              (۲۴۵۴
+              بازدید)</li>
+            <li class="list-group-item noradius backgcolor para">نرخ تن کیلومتر از امروز در سراسر کشور بروزرسانی شد
+              (۲۰۶۹
+              بازدید)</li>
+          </ul>
+        </div>
+        <div class="col-md-9 pt-2">
           <div class="row">
-            <div class="col-md-3">
-              <ul class="list-group mb-2">
-                <li class="list-group-item active modified" aria-current="true">فهرست طبقات</li>
-                <li class="list-group-item backgcolor">اخبار رویداد</li>
-                <li class="list-group-item backgcolor">سازمان راهداری و حمل و نقل جاده ای</li>
-                <li class="list-group-item backgcolor">اطلایه های مهم</li>
-                <li class="list-group-item noradius backgcolor">استان ها</li>
-              </ul>
-              <ul class="list-group mb-2">
-                <li class="list-group-item active modified" aria-current="true">آخرین اخبار سازمان راهداری و حمل و نقل جاده ای
-                </li>
-                <li class="list-group-item backgcolor">عملیات بهسازی و روکش آسفالت بیش از ۱۱ هزار کیلومتر از راه‌های ...</li>
-                <li class="list-group-item backgcolor">حذف و اصلاح ۳۵۶ نقطه پر حادثه در راه‌های کشور</li>
-                <li class="list-group-item backgcolor">رسیدگی قانونی به پرداخت به موقع کرایه حمل رانندگان</li>
-                <li class="list-group-item backgcolor">سرمایه‌گذاری ۵۰۰۰ همتی بخش خصوصی حمل‌ونقل عمومی جاده‌ای کشور</li>
-                <li class="list-group-item backgcolor">جابجایی افزون بر یک میلیون و ۴۰۰ هزار تن کالا از پایانه های مرزی شمال ...
-                </li>
-                <li class="list-group-item backgcolor">محدودیت‌های ترافیکی در محورهای مواصلاتی کشور در بازه زمانی ۱۱ تا ۱۴ ...</li>
-                <li class="list-group-item noradius backgcolor">ساخت سکوی شبیه‌ساز رانندگی حرفه‌ای در ایران، یک دستاورد دانش بنیان ...</li>
-              </ul>
-              <ul class="list-group m-2">
-                <li class="list-group-item active modified" aria-current="true">پربازدیدترین اخبار سازمان راهداری و حمل و نقل
-                  جاده ای</li>
-                <li class="list-group-item backgcolor">تشریح برنامه‌ها و تمهیدات لازم به منظور جابه‌جایی زائران مراسم دومین ...
-                  (۱۰۸۷۶ بازدید)</li>
-                <li class="list-group-item backgcolor">آزمون متقاضیان تاسیس شرکت های حمل و نقل بین المللی کالا 29 مهرماه ... (۶۴۳۱
-                  بازدید)</li>
-                <li class="list-group-item backgcolor">معاون وزیر و رئیس سازمان راهداری و حمل و نقل جاده‌ای منصوب شد (۳۵۶۰ بازدید)
-                </li>
-                <li class="list-group-item backgcolor">راهداری باید جزء مشاغل حاکمیتی محسوب شود نه تصدی‌گری/ لزوم همراهی و ...
-                  (۲۶۰۷ بازدید)</li>
-                <li class="list-group-item backgcolor">توقف صدور بارنامه برای کامیون‌ها به مقصد استان‌های برف‌گیر‌/اتوبوس‌ها ...
-                  (۲۵۳۹ بازدید)</li>
-                <li class="list-group-item backgcolor">صدور احکام نیروهای مشمول قانون مدیریت خدمات کشوری شاغل در ستاد مرکزی (۲۴۵۴
-                  بازدید)</li>
-                <li class="list-group-item noradius backgcolor">نرخ تن کیلومتر از امروز در سراسر کشور بروزرسانی شد (۲۰۶۹ بازدید)</li>
-              </ul>
+            <div class="col-md-9">
+              <input type="text" class="form-control noradius" placeholder="جستجو" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
             </div>
-            <div class="col-md-9 pt-2">
+            <div class="col-md-3">
+              <div class="btn-group"></div>
+              <a href="#" class="btn btn-primary active noradius" aria-current="page"><i class="bi bi-search"></i></a>
+              <a href="#" class="btn btn-primary noradius">Link</a>
+              <a href="#" class="btn btn-primary noradius">Link</a>
+            </div>
+          </div>
+          <div class="news mt-2 p-2">
+            <div class="row">
+              <div class="col-md">تاریخ</div>
+              <div class="col-md">تاریخ</div>
+              <div class="col-md">تاریخ</div>
+            </div>
+            <main class="modthis">
               <div class="row">
-                <div class="col-md-9">
-                  <input type="text" class="form-control noradius" placeholder="جستجو" aria-label="Recipient's username"
-                    aria-describedby="basic-addon2">
-                </div>
-                <div class="col-md-3">
-                  <div class="btn-group"></div>
-                  <a href="#" class="btn btn-primary active noradius" aria-current="page"><i class="bi bi-search"></i></a>
-                  <a href="#" class="btn btn-primary noradius">Link</a>
-                  <a href="#" class="btn btn-primary noradius">Link</a>
-                </div>
-              </div>
-              <div class="news mt-2 p-2">
-              <div class="row">
-                <div class="col-md">تاریخ</div>
-                <div class="col-md">تاریخ</div>
-                <div class="col-md">تاریخ</div>
-              </div>
-              <main class="modthis">
-                <div class="row">
-                
+
                 <div class="col-md-8">
                   <h5>حذف و اصلاح ۳۵۶ نقطه پر حادثه در راه‌های کشور</h5>
-                  <p class="para mt-3">طی ۶ ماهه سال‌جاری، ۳۵۶ نقطه پر حادثه با هدف ارتقاء ایمنی و کاهش تصادفات جاده‌ای در راه‌های
+                  <p class="para mt-3">طی ۶ ماهه سال‌جاری، ۳۵۶ نقطه پر حادثه با هدف ارتقاء ایمنی و کاهش تصادفات جاده‌ای
+                    در
+                    راه‌های
                     بین‌شهری کشور رفع و اصلاح شد.</p>
                 </div>
                 <div class="col-md-4">
                   <img src="images/traffic.jpg" alt="" class="widthat">
                 </div>
-              </main>
-              
-                <div class="row">
-                  <p class="text-muted p-5 para">
-                    به گزارش روابط عمومی سازمان راهداری و حمل و نقل جاده‌ای و بر اساس اعلام مرکز مدیریت راه‌های کشور، تردد موتورسیکلت‌ها (به استثناء موتورسیکلت‌های انتظامی و امدادی) از ساعت ۱۲ روز چهارشنبه ۱۸ مهر تا ساعت ۷ صبح روز شنبه ۲۱ مهر ماه از محورهای کرج - چالوس، هراز، فیروزکوه، محور تهران - سمنان - مشهد و بالعکس ممنوع است.
-                    <br>
-                    ر اساس این گزارش تردد انواع خودروهای تریلر، کامیون و کامیونت در محور کرج - چالوس و بالعکس ممنوع بوده و همچنین بر اساس پیش‌بینی محدودیت تردد در صورت پرحجم بودن ترافیک، از ساعت ۱۴ روز چهارشنبه ۱۸ مهرماه، از مرزن‌آباد به سمت تهران (شمال به جنوب) محور به طور کامل مسدود می‌شود.
-                    <br>
-                    این گزارش حاکی است از ساعت ۱۷ محدودیت یک‌طرفه از ابتدای پل زنگوله (انتهای دهانه شمالی تونل البرز به سمت چالوس) اعمال شده و با اتمام زمان اجرای این طرح، تردد وسایل نقلیه از ساعت ۲۴ از پل زنگوله تا مرزن‌آباد در مسیر دوطرفه انجام می‌شود.
-                    <br>
-                    بر پایه این گزارش، از ساعت ۱۴ روز جمعه ۲۰ مهر ماه محدودیت تردد انواع وسایل نقلیه از ابتدای آزادراه تهران - شمال به مقصد چالوس اعمال شده و از ساعت ۱۵ نیز از ابتدای پل زنگوله (انتهای دهانه شمالی تونل البرز به سمت چالوس) محور به طور کامل مسدود می‌شود.
-                    <br>
-                    گفتنی است، محدودیت یک‌طرفه از ساعت ۱۷ از مرزن‌آباد به سمت تهران (شمال به جنوب) اعمال شده و با اتمام این طرح، از ساعت ۲۳ تردد وسایل نقلیه از پل زنگوله تا مرزن‌آباد در مسیر دوطرفه انجام می‌شود، البته در صورت کم حجم بودن ترافیک محور، طرح محدودیت یک‌طرفه پیش از زمان اعلام شده پایان می‌یابد.
-                    <br>
-                    بر اساس اعلام مرکز مدیریت راه‌های کشور، تردد از مسیر جاده قدیم کرج - چالوس تا محدوده پل زنگوله برای ساکنان و افراد محلی آزاد بوده، اما از ساعت ۱۱ از میدان امیرکبیر تردد برای خودروهایی که در روزهای اعمال محدودیت جنوب به شمال قصد عزیمت به سمت چالوس را دارند، ممنوع است.
+            </main>
 
-                    <br>
-                    همچنین تردد انواع تریلر در محور هراز و بالعکس ممنوع بوده و در صورت افزایش حجم ترافیک و تشخیص مأموران پلیس راه، در روز جمعه ۲۰ مهر ماه محدودیت یک‌طرفه مقطعی به صورت رفت و برگشت از محدوده پلور تا پلیس راه لاریجان و بالعکس انجام خواهد شد.
-                    <br>
-                    بر اساس این گزارش‌، تردد خودروهای کامیون و کامیونت (به استثناء خودروهای حامل مواد سوختی و فاسدشدنی) از ساعت ۱۲ تا ۲۴ روز چهارشنبه ۱۸ مهر و همچنین از ساعت ۷ تا ۲۴ روزهای پنجشنبه و جمعه (۱۹ و ۲۰ مهر) از محور هراز ممنوع است.
-                    <br>
-                    ز سویی از ساعت ۱۷ تا ۲۰ روز جمعه ۲۰ مهر ماه، محدودیت ترافیکی یک‌طرفه از انتهای محور نقطه پل حاجی‌آباد یا پیچ کلیکان (ابتدای پیچ آریانا) به سمت خروجی فشم اعمال خواهد شد.
-                    <br>
-                    <br>
-                    آدرس کوتاه شده:
-                    <a href="https://www.rmto.ir/s/mfajExu">https://www.rmto.ir/s/mfajExu</a>
-                  </p>
-                </div>
-              </div>
+            <div class="row">
+              <p class="text-muted p-5 para">
+                به گزارش روابط عمومی سازمان راهداری و حمل و نقل جاده‌ای و بر اساس اعلام مرکز مدیریت راه‌های کشور، تردد
+                موتورسیکلت‌ها (به استثناء موتورسیکلت‌های انتظامی و امدادی) از ساعت ۱۲ روز چهارشنبه ۱۸ مهر تا ساعت ۷ صبح
+                روز شنبه ۲۱ مهر ماه از محورهای کرج - چالوس، هراز، فیروزکوه، محور تهران - سمنان - مشهد و بالعکس ممنوع
+                است.
+                <br>
+                ر اساس این گزارش تردد انواع خودروهای تریلر، کامیون و کامیونت در محور کرج - چالوس و بالعکس ممنوع بوده و
+                همچنین بر اساس پیش‌بینی محدودیت تردد در صورت پرحجم بودن ترافیک، از ساعت ۱۴ روز چهارشنبه ۱۸ مهرماه، از
+                مرزن‌آباد به سمت تهران (شمال به جنوب) محور به طور کامل مسدود می‌شود.
+                <br>
+                این گزارش حاکی است از ساعت ۱۷ محدودیت یک‌طرفه از ابتدای پل زنگوله (انتهای دهانه شمالی تونل البرز به سمت
+                چالوس) اعمال شده و با اتمام زمان اجرای این طرح، تردد وسایل نقلیه از ساعت ۲۴ از پل زنگوله تا مرزن‌آباد در
+                مسیر دوطرفه انجام می‌شود.
+                <br>
+                بر پایه این گزارش، از ساعت ۱۴ روز جمعه ۲۰ مهر ماه محدودیت تردد انواع وسایل نقلیه از ابتدای آزادراه تهران
+                -
+                شمال به مقصد چالوس اعمال شده و از ساعت ۱۵ نیز از ابتدای پل زنگوله (انتهای دهانه شمالی تونل البرز به سمت
+                چالوس) محور به طور کامل مسدود می‌شود.
+                <br>
+                گفتنی است، محدودیت یک‌طرفه از ساعت ۱۷ از مرزن‌آباد به سمت تهران (شمال به جنوب) اعمال شده و با اتمام این
+                طرح، از ساعت ۲۳ تردد وسایل نقلیه از پل زنگوله تا مرزن‌آباد در مسیر دوطرفه انجام می‌شود، البته در صورت کم
+                حجم بودن ترافیک محور، طرح محدودیت یک‌طرفه پیش از زمان اعلام شده پایان می‌یابد.
+                <br>
+                بر اساس اعلام مرکز مدیریت راه‌های کشور، تردد از مسیر جاده قدیم کرج - چالوس تا محدوده پل زنگوله برای
+                ساکنان
+                و افراد محلی آزاد بوده، اما از ساعت ۱۱ از میدان امیرکبیر تردد برای خودروهایی که در روزهای اعمال محدودیت
+                جنوب به شمال قصد عزیمت به سمت چالوس را دارند، ممنوع است.
+
+                <br>
+                همچنین تردد انواع تریلر در محور هراز و بالعکس ممنوع بوده و در صورت افزایش حجم ترافیک و تشخیص مأموران
+                پلیس
+                راه، در روز جمعه ۲۰ مهر ماه محدودیت یک‌طرفه مقطعی به صورت رفت و برگشت از محدوده پلور تا پلیس راه لاریجان
+                و
+                بالعکس انجام خواهد شد.
+                <br>
+                بر اساس این گزارش‌، تردد خودروهای کامیون و کامیونت (به استثناء خودروهای حامل مواد سوختی و فاسدشدنی) از
+                ساعت ۱۲ تا ۲۴ روز چهارشنبه ۱۸ مهر و همچنین از ساعت ۷ تا ۲۴ روزهای پنجشنبه و جمعه (۱۹ و ۲۰ مهر) از محور
+                هراز ممنوع است.
+                <br>
+                ز سویی از ساعت ۱۷ تا ۲۰ روز جمعه ۲۰ مهر ماه، محدودیت ترافیکی یک‌طرفه از انتهای محور نقطه پل حاجی‌آباد یا
+                پیچ کلیکان (ابتدای پیچ آریانا) به سمت خروجی فشم اعمال خواهد شد.
+                <br>
+                <br>
+                آدرس کوتاه شده:
+                <a href="https://www.rmto.ir/s/mfajExu">https://www.rmto.ir/s/mfajExu</a>
+              </p>
             </div>
-            </div>
-
-
           </div>
-
-        </div>
-        <div>
-
         </div>
       </div>
-    </div>
-  </div>
-  </div>
-  </div>
 
-  <div class="container-fluid p-5 footer mt-3">
+
+    </div>
+
+  <div class="container-fluid p-5 footer">
     <div class="container">
       <div class="row">
         <div class="col-md-2">
@@ -239,26 +284,21 @@
         </div>
         <div class="col-md-2">
           <h6 class="footerBorder">اطلاعات تماس</h6>
-         <address class="information">بلوار کشاورز، خیابان فلسطین، خیابان دمشق، شماره 17
-          <br>
-          تلفن:۸۸۸۰۴۳۷۹-۸۸
-          <br>
-          پست الکترونیک : info@rmto.ir
-          <br>
-          ساعت کاری: شنبه تا چهارشنبه
-          <br>
-          از ساعت 8:00 الی 16:15
-         </address>
-         <address class="information">
+          <address class="information">بلوار کشاورز، خیابان فلسطین، خیابان دمشق، شماره 17
+            <br>
+            تلفن:۸۸۸۰۴۳۷۹-۸۸
+            <br>
+            پست الکترونیک : info@rmto.ir
+            <br>
+            ساعت کاری: شنبه تا چهارشنبه
+            <br>
+            از ساعت 8:00 الی 16:15
+          </address>
+          <address class="information">
+        </div>
       </div>
     </div>
-
-
   </div>
-
-
-
-
 
 </body>
 
