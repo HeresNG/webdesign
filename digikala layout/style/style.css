@@ -1,0 +1,23 @@
+* {
+  direction: rtl;
+}
+
+.bgcolor1 {
+  background-color: rgb(160, 0, 0);
+  color: white;
+}
+
+.bgcolor2 {
+  background-color: rgb(191, 191, 191);
+  color: rgb(77, 77, 77);
+}
+.bgcolor3{
+  background-color: rgb(167, 71, 71);
+  color: white;
+}
+.header-height{
+  height: 60px;
+}
+.borderL{
+  border-left: 1px solid rgb(255, 255, 255);
+}
