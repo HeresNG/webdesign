@@ -1,0 +1,13 @@
+*{
+    font-family: Vazirmatn FD;
+    direction: rtl;
+}
+header, #slider, #services, #bcards {
+    padding: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+#slider{
+    padding: 80px;
+    background-color: #f2f2f2;
+}
